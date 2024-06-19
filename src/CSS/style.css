@@ -1,4 +1,7 @@
-/* Base styles for the entire body, setting font, margins, and background */
+Certainly! Here's the CSS code with the comments translated to Portuguese:
+
+```css
+/* Estilos base para todo o corpo, definindo fonte, margens e fundo */
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -7,7 +10,7 @@ body {
     height: 300vh;
 }
 
-/* Styling for paragraphs, including hover effects */
+/* Estilos para parágrafos, incluindo efeitos ao passar o mouse */
 p {
     color: #181818;
     font-weight: bold;
@@ -22,7 +25,7 @@ p:hover {
     color: #f8f1e2;
 }
 
-/* Button styles and hover effects */
+/* Estilos e efeitos ao passar o mouse para botões */
 #btn-color {
     background-color: #fdf8f3;
     color: #181818;
@@ -38,7 +41,7 @@ p:hover {
     color: #f8f1e2;
 }
 
-/* Header styling */
+/* Estilo do cabeçalho */
 header {
     background-color: #fdf8f3;
     color: #181818;
@@ -46,7 +49,7 @@ header {
     text-align: center;
 }
 
-/* Navigation menu styling */
+/* Estilo do menu de navegação */
 nav ul {
     list-style: none;
     padding: 0;
@@ -72,12 +75,12 @@ nav ul li a:hover {
     color: #f8f1e2;
 }
 
-/* Main content area styling */
+/* Estilo da área de conteúdo principal */
 main {
     padding: 20px;
 }
 
-/* Slideshow container and animation */
+/* Container de slideshow e animação */
 .slideshow-container {
     max-width: 100%;
     overflow: hidden;
@@ -106,7 +109,7 @@ main {
     padding-left: 20px;
 }
 
-/* Responsive design adjustments for slideshow images */
+/* Ajustes responsivos para imagens de slideshow */
 @media (max-width: 768px) {
     .slide img {
         width: 100%;
@@ -117,7 +120,7 @@ main {
     }
 }
 
-/* Card layout styling */
+/* Estilo de layout de cards */
 .cards {
     display: flex;
     justify-content: space-around;
@@ -138,7 +141,7 @@ main {
     text-align: center;
 }
 
-/* Styling for card paragraphs, including price hover effect */
+/* Estilos para parágrafos de cards, incluindo efeito ao passar o mouse no preço */
 .card p {
     margin-bottom: 0;
     font-weight: normal;
@@ -163,7 +166,7 @@ main {
     color: #f8f1e2;
 }
 
-/* Form styling */
+/* Estilo do formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -199,7 +202,7 @@ form button:hover {
     background-color: #333;
 }
 
-/* Login and contact form styling */
+/* Estilo dos formulários de login e contato */
 .login, .contato {
     background: linear-gradient(to bottom right, #4ca1af, #c4e0e5);
     min-height: 100vh;
@@ -215,12 +218,12 @@ form button:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Headings styling */
+/* Estilo dos títulos */
 h1, h2 {
     text-align: center;
 }
 
-/* Logo image alignment */
+/* Alinhamento da imagem do logo */
 .logoimg {
     text-align: center;
     padding-left: 39.9%;
