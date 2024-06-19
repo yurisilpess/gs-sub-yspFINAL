@@ -1,5 +1,5 @@
 # LINK DO GITPAGES
-[WEBSITE](https://yurisilpess.github.io/gs-sub-yspFINAL/)
+[SITE](https://yurisilpess.github.io/gs-sub-yspFINAL/)
 
 ## Recursos
 
