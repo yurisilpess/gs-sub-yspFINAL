@@ -1,36 +1,36 @@
 // SlideShow
-// Function to initialize a slideshow for a specific container
+// Função para inicializar um slideshow para um contêiner específico
 function initializeSlideshow(containerId) {
     let slideIndex = 0;
     const slides = document.querySelectorAll(`#${containerId} .slide-fade`);
 
     function showSlides() {
-        // Hide all slides
+        // Ocultar todos os slides
         slides.forEach(slide => slide.style.display = 'none');
 
-        // Increment slide index
+        // Incrementar o índice do slide
         slideIndex++;
         if (slideIndex > slides.length) {
             slideIndex = 1;
         }
 
-        // Show the current slide
+        // Mostrar o slide atual
         slides[slideIndex - 1].style.display = 'block';
 
-        // Set a timer to show the next slide
-        setTimeout(showSlides, 5000); // Change slide every 5 seconds
+        // Definir um temporizador para mostrar o próximo slide
+        setTimeout(showSlides, 5000); // Mudar de slide a cada 5 segundos
     }
 
     showSlides();
 }
 
-// Initialize slideshows for each container
+// Inicializar slideshows para cada contêiner
 document.addEventListener('DOMContentLoaded', () => {
     initializeSlideshow('violao-slideshow');
     initializeSlideshow('violino-slideshow');
     initializeSlideshow('piano-slideshow');
 
-    // Theme change functionality
+    // Funcionalidade de mudança de tema
     const btnColor = document.getElementById('btn-color');
     if (btnColor) {
         btnColor.addEventListener('click', changeBackground);
