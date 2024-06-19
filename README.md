@@ -1,5 +1,7 @@
 # LINK DO GITPAGES
-The site is currently being built.
+[SITE](https://yurisilpess.github.io/gs-sub-yspFINAL/)
+
+OBS: o site não está registrando javascript. Para obter a experiência completa, faça download de todos os arquivos no formato .zip e execute-o localmente.
 
 ## Recursos
 
