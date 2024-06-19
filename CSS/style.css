@@ -1,0 +1,227 @@
+/* Estilos base para todo o corpo, definindo fonte, margens e fundo */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f8f1e2, #4f321c);
+    height: 300vh;
+}
+
+/* Estilos para parágrafos, incluindo efeitos ao passar o mouse */
+p {
+    color: #181818;
+    font-weight: bold;
+    border: 3px solid #4f321c;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+p:hover {
+    background-color: #4f321c;
+    color: #f8f1e2;
+}
+
+/* Estilos e efeitos ao passar o mouse para botões */
+#btn-color {
+    background-color: #fdf8f3;
+    color: #181818;
+    border: 2px solid #7e6753;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+#btn-color:hover {
+    background-color: #7e6753;
+    color: #f8f1e2;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #fdf8f3;
+    color: #181818;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+/* Estilo do menu de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4f321c;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #7e6753;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #7e6753;
+    color: #f8f1e2;
+}
+
+/* Estilo da área de conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Container de slideshow e animação */
+.slideshow-container {
+    max-width: 100%;
+    overflow: hidden;
+    margin: 10px auto;
+    position: relative;
+    display: block;
+    justify-content: center;
+    object-fit: contain;
+    align-items: center;
+    border-image: auto;
+}
+
+.slide-fade {
+    display: none;
+    width: 100%;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    justify-content: center;
+    object-fit: contain;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/* Ajustes responsivos para imagens de slideshow */
+@media (max-width: 768px) {
+    .slide img {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        object-fit: contain;
+        align-items: center;
+    }
+}
+
+/* Estilo de layout de cards */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 40px);
+}
+
+.card h3 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Estilos para parágrafos de cards, incluindo efeito ao passar o mouse no preço */
+.card p {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: small;
+}
+
+.card p#price {
+    margin-bottom: 0;
+    color: #6bcb70;
+    font-weight: 650;
+    font-size: small;
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+    border: 2px solid #6bcb70;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.card p#price:hover {
+    background-color: #6bcb70;
+    color: #f8f1e2;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    background: rgba(192, 164, 129, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #181818;
+    color: rgb(192, 164, 129);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+/* Estilo dos formulários de login e contato */
+.login, .contato {
+    background: linear-gradient(to bottom right, #4ca1af, #c4e0e5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form, .contato form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo dos títulos */
+h1, h2 {
+    text-align: center;
+}
+
+/* Alinhamento da imagem do logo */
+.logoimg {
+    text-align: center;
+    padding-left: 39.9%;
+}
