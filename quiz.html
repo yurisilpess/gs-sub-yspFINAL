@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Loja de Instrumentos Musicais</title>
+    <link rel="stylesheet" href="/src/CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><button id="btn-color" onclick="changeBackground()">TEMA</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Quiz sobre Instrumentos Musicais</h1>
+        <div id="quiz-container">
+            <form id="quiz-form">
+                <div class="question">
+                    <p>1. Qual instrumento é conhecido como "rei dos instrumentos"?</p>
+                    <input type="radio" name="q1" value="Piano" required> Piano<br>
+                    <input type="radio" name="q1" value="Violino"> Violino<br>
+                    <input type="radio" name="q1" value="Guitarra"> Guitarra<br>
+                    <input type="radio" name="q1" value="Flauta"> Flauta<br>
+                </div>
+                <div class="question">
+                    <p>2. Qual desses instrumentos pertence à família das cordas?</p>
+                    <input type="radio" name="q2" value="Trompete" required> Trompete<br>
+                    <input type="radio" name="q2" value="Bateria"> Bateria<br>
+                    <input type="radio" name="q2" value="Violoncelo"> Violoncelo<br>
+                    <input type="radio" name="q2" value="Saxofone"> Saxofone<br>
+                </div>
+                <div class="question">
+                    <p>3. Qual é o instrumento de sopro mais antigo?</p>
+                    <input type="radio" name="q3" value="Oboé" required> Oboé<br>
+                    <input type="radio" name="q3" value="Flauta"> Flauta<br>
+                    <input type="radio" name="q3" value="Tuba"> Tuba<br>
+                    <input type="radio" name="q3" value="Clarinete"> Clarinete<br>
+                </div>
+                <div class="question">
+                    <p>4. Qual destes instrumentos é percussivo?</p>
+                    <input type="radio" name="q4" value="Violino" required> Violino<br>
+                    <input type="radio" name="q4" value="Guitarra"> Guitarra<br>
+                    <input type="radio" name="q4" value="Pandeiro"> Pandeiro<br>
+                    <input type="radio" name="q4" value="Harpa"> Harpa<br>
+                </div>
+                <div class="question">
+                    <p>5. Qual é o menor membro da família dos instrumentos de corda?</p>
+                    <input type="radio" name="q5" value="Baixo" required> Baixo<br>
+                    <input type="radio" name="q5" value="Violino"> Violino<br>
+                    <input type="radio" name="q5" value="Viola"> Viola<br>
+                    <input type="radio" name="q5" value="Violoncelo"> Violoncelo<br>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="results-container" style="display:none;"></div>
+        </div>
+    </main>
+    <script src="/src/script.js"></script>
+</body>
+</html>

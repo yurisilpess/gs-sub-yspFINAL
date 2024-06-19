@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Instrumentos Musicais</title>
+    <link rel="stylesheet" href="/src/CSS/style.css">
+</head>
+<body>
+    <script>
+        alert("Seja bem-vindo");
+    </script>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="quiz.html">Quiz</a></li>
+                <li><button id="btn-color" onclick="changeBackground()">TEMA</button></li>
+            </ul>          
+        </nav>
+    </header>
+    <main>
+        <h2>NOSSOS PRODUTOS!</h2>
+        <section class="cards">
+            <div class="card">
+                <h3>Violões</h3>
+                <div class="slideshow-container" id="violao-slideshow">
+                    <div class="slide-fade">
+                        <img src="/src/img/violao/v1.png" alt="Slide 1" width="auto" height="300px">
+                    </div>
+                    <div class="slide-fade">
+                        <img src="/src/img/violao/v2.png" alt="Slide 2" width="auto" height="295px">
+                    </div>
+                    <div class="slide-fade">
+                        <img src="/src/img/violao/v3.png" alt="Slide 3" width="auto" height="300px">
+                    </div>
+                </div>
+                <p id="price">R$ 249.99 - R$ 849.99</p>
+                <p>- Tom quente e equilibrado. Ideal para músicos que buscam um som clássico. <br> <br>- Design contemporâneo com um perfil sonoro versátil para qualquer gênero. <br> <br>- Meticulosamente fabricado para um som matizado que cativa os ouvintes.</p>
+            </div>
+            <div class="card">
+                <h3>Violinos</h3>
+                <div class="slideshow-container" id="violino-slideshow">
+                    <div class="slide-fade">
+                        <img src="/src/img/violino/violino1.png" alt="Slide 1" width="auto" height="300px">
+                    </div>
+                    <div class="slide-fade">
+                        <img src="/src/img/violino/violino2.png" alt="Slide 2" width="auto" height="300px">
+                    </div>
+                    <div class="slide-fade">
+                        <img src="/src/img/violino/violino3.png" alt="Slide 3" width="auto" height="300px">
+                    </div>
+                </div>
+                <p id="price">R$ 369.99 - R$ 999.99</p>
+                <p>- Som vibrante e articulado, perfeito para expressar sua musicalidade com estilo. <br> <br>- Design ergonômico e tonalidade equilibrada para qualquer estilo de música. <br> <br>- Meticulosamente fabricado para um som matizado que cativa os ouvintes.</p>
+            </div>
+            <div class="card">
+                <h3>Pianos</h3>
+                <div class="slideshow-container" id="piano-slideshow">
+                    <div class="slide-fade">
+                        <img src="/src/img/piano/p1.png" alt="Slide 1" width="auto" height="300px">
+                    </div>
+                    <div class="slide-fade">
+                        <img src="/src/img/piano/p2.png" alt="Slide 2" width="auto" height="300px">
+                    </div>
+                    <div class="slide-fade">
+                        <img src="/src/img/piano/p3.png" alt="Slide 3" width="auto" height="300px">
+                    </div>
+                </div>
+                <p id="price">R$ 9,999.99 - R$ 27,099.99</p>
+                <p>- Teclado responsivo e timbre envolvente, ideal para composição e interpretação expressiva. <br> <br>- Design compacto com som rico e equilibrado, perfeito para qualquer ambiente. <br> <br>- Construção robusta e acabamento refinado para uma experiência musical sublime em cada nota.</p>
+            </div>
+        </section>
+    </main>
+    <script src="/src/script.js"></script>
+</body>
+</html>
