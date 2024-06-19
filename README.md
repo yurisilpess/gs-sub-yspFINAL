@@ -1,32 +1,24 @@
-# GITPAGES LINK
+# LINK DO GITPAGES
 [WEBSITE](https://yurisilpess.github.io/gs-sub-yspFINAL/)
 
-## Project Overview
+## Recursos
 
-This project is a showcase of a personal portfolio, designed to highlight skills, projects, and achievements. It's hosted on GitHub Pages, providing an easy and accessible way for potential employers or collaborators to explore the work.
+- **Customização de Tema**: Os usuários podem alterar o tema do site, mas essa funcionalidade está atualmente limitada à página principal (Home). Isso permite uma experiência de navegação personalizada, refletindo as preferências do usuário.
 
-## Features
+- **Design Responsivo**: O site é totalmente responsivo, garantindo uma experiência perfeita em vários dispositivos e tamanhos de tela.
 
-- **Theme Customization**: Users can change the theme of the website, but this feature is currently limited to the main page (Home). This allows for a personalized browsing experience, reflecting the user's preferences.
+- **Seção de Portfólio**: Uma seção dedicada para exibir projetos e conquistas. Cada projeto inclui uma breve descrição, tecnologias utilizadas e links para o repositório ou versão ao vivo, se disponível.
 
-- **Responsive Design**: The website is fully responsive, ensuring a seamless experience across various devices and screen sizes.
+- **Formulário de Contato**: Uma maneira fácil para os visitantes entrarem em contato. As mensagens enviadas através do formulário de contato são encaminhadas diretamente para o e-mail do proprietário.
 
-- **Portfolio Section**: A dedicated section to display projects and achievements. Each project includes a brief description, technologies used, and links to the repository or live version, if available.
+## Como Alterar o Tema
 
-- **Contact Form**: An easy way for visitors to get in touch. Messages sent through the contact form are directly forwarded to the owner's email.
+1. Navegue até a página Home.
+2. Procure pelo interruptor de alternância de tema localizado no topo da página.
+3. Clique no interruptor para alternar entre o modo claro e escuro.
 
-## How to Change the Theme
+Por favor, observe que a alteração de tema é aplicada apenas à página Home na versão atual.
 
-1. Navigate to the Home page.
-2. Look for the theme toggle switch located at the top of the page.
-3. Click on the toggle to switch between light and dark mode.
+----
 
-Please note that the theme change is only applied to the Home page as of the current version.
-
-## Future Updates
-
-- Extend theme customization to all pages.
-- Add a blog section for sharing insights and updates.
-- Implement a more dynamic portfolio section with filtering capabilities based on technology or project type.
-
-Thank you for visiting and exploring the project!
+Obrigado por visitar e explorar o projeto!
