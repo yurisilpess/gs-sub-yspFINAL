@@ -44,8 +44,8 @@ if (btnColor) {
 }
 let indexButton = 0;
 
-const colorsOne = ['#1bd6cd', '#959EC9', '#a4cac5', '#758DA0']; // Cores para o tema azul escuro
-const colorsTwo = ['#b95987', '#4e5174', '#62717e', '#22324B']; // Cores para o tema rosa escuro
+const colorsOne = ['#4f321c', '#7e6753', '#b08554', '#f8f1e2']; // Tema escuro
+const colorsTwo = ['#0a1f44', '#163a69', '#2e5984', '#76d6ff']; // Tema azul escuro
 
 function changeBackground() {
     const body = document.querySelector('body');
